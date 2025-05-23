@@ -33,21 +33,21 @@
       <img src="images/photo.png" alt="Zhen Wang 照片" class="rounded-full w-48 h-48 mb-4 md:mb-0 md:mr-6">
       <div>
         <h2 class="text-3xl font-bold mb-4">欢迎访问我的主页</h2>
-        <p class="text-lg">我是 Zhen Wang，河南大学食品科学与工程专业博士生。我的研究专注于益生菌发酵（如 <i>Lactobacillus plantarum</i> 和 <i>Saccharomyces cerevisiae</i>）、膳食纤维与小麦淀粉的相互作用，以及透明质酸在食品加工中的应用。欢迎了解我的科研工作！</p>
-        <p class="mt-2"><a href="files/CV-Zhen-Wang-202504.pdf" class="text-blue-600 hover:underline" download>下载我的简历</a></p>
+        <p class="text-lg">我是 汪桢 （WANG Zhen），河南大学2022级生物学专业博士研究生在读。我的研究兴趣为精准发酵、精准营养以及营养基因组学。欢迎了解我的科研工作！</p>
+        <p class="mt-2"><a href="files/CV-Zhen-Wang-202504.pdf" class="text-blue-600 hover:underline" download>个人简历</a></p>
       </div>
     </div>
   </section>
 
-  <!-- 研究 -->
+  <!-- 研究方向 -->
   <section id="research" class="section bg-gray-50">
     <div class="container mx-auto">
       <h2 class="text-3xl font-bold mb-4">研究方向</h2>
       <ul class="list-disc pl-6">
-        <li>益生菌发酵：研究 <i>Lactobacillus plantarum</i> 和 <i>Saccharomyces cerevisiae</i> 协同发酵对麦谷蛋白热特性的影响。</li>
-        <li>膳食纤维：探索小麦麸膳食纤维在面粉产品中的功能与机制。</li>
-        <li>透明质酸：研究透明质酸在食品加工中的结构支持与热稳定作用。</li>
-        <li>生物大分子：分析蛋白质-多糖相互作用及其在食品体系中的应用。</li>
+        <li>精准发酵：构建了 <i>Lactobacillus plantarum</i> 和 <i>Saccharomyces cerevisiae</i> 协同发酵体系，多维度探究对食物中宏量营养素特性的影响。</li>
+        <li>精准营养：探索膳食蛋白质-碳水化合物相互作用对健康的影响。</li>
+        <li>营养基因组学：构建基于营养基因组学的健康分级评价体系。</li>
+        <li>生物大分子：解析蛋白质-多糖相互作用及其在食品体系中的应用。</li>
       </ul>
     </div>
   </section>
@@ -56,14 +56,14 @@
   <section id="publications" class="section bg-white">
     <div class="container mx-auto">
       <h2 class="text-3xl font-bold mb-4">出版物</h2>
-      <ul class="list-disc pl-6">
-        <li>Wang, L., Wang, Z., Liu, F., ... Huang, J.* & Wang, G.* (2024). Programmable plasmonic hydrogel thermometers actuated by DNA breathing. <i>Adv. Mater. Technol.</i>, 9(20), 2400243. <a href="https://doi.org/10.1002/admt.202400243" class="text-blue-600 hover:underline">DOI</a></li>
-        <li>Zhang, X., Wang, Z., Wang, L., ... Huang, J.* & Luan, G.* (2023). Structural support of zein network to rice flour gluten-free dough: Rheological, textural and thermal properties. <i>Food Hydrocoll.</i>, 141, 108721. <a href="https://doi.org/10.1016/j.foodhyd.2023.108721" class="text-blue-600 hover:underline">DOI</a></li>
-        <li>Ma, S.*, Wang, Z., Liu, H. et al. (2022). Supplementation of wheat flour products with wheat bran dietary fiber: Purpose, mechanisms, and challenges. <i>Trends Food Sci. Tech.</i>, 123, 281-289. <a href="https://doi.org/10.1016/j.tifs.2022.03.006" class="text-blue-600 hover:underline">DOI</a></li>
-        <li>Ma, S.*, Wang, Z., Tian, X. et al. (2022). Effect of synergistic fermentation of <i>Lactobacillus plantarum</i> and <i>Saccharomyces cerevisiae</i> on thermal properties of wheat bran dietary fiber-wheat starch system. <i>Food Chem.</i>, 373, 131417. <a href="https://doi.org/10.1016/j.foodchem.2021.131417" class="text-blue-600 hover:underline">DOI</a></li>
-        <li>Wang, Z., Ma, S.*, Huang, J., ... Wang, X.* (2021). Biochemical properties of type I sourdough affected by wheat bran dietary fiber during fermentation. <i>Int. J. Food Sci. Technol.</i>, 57(4), 1995-2002. <a href="https://doi.org/10.1111/ijfs.15260" class="text-blue-600 hover:underline">DOI</a></li>
-        <li>Ma, S.*, Wang, Z., Guo, X. et al. (2021). Sourdough improves the quality of whole-wheat flour products: Mechanisms and challenges-A review. <i>Food Chem.</i>, 360, 130038. <a href="https://doi.org/10.1016/j.foodchem.2021.130038" class="text-blue-600 hover:underline">DOI</a></li>
-      </ul>
+      <div class="mb-4">
+        <button class="filter-btn bg-blue-600 text-white px-4 py-2 rounded mr-2" data-year="All">全部</button>
+        <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded mr-2" data-year="2024">2024</button>
+        <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded mr-2" data-year="2023">2023</button>
+        <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded mr-2" data-year="2022">2022</button>
+        <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded" data-year="2021">2021</button>
+      </div>
+      <ul id="publication-list" class="list-disc pl-6"></ul>
     </div>
   </section>
 
@@ -87,7 +87,7 @@
   <section id="contact" class="section bg-white">
     <div class="container mx-auto">
       <h2 class="text-3xl font-bold mb-4">联系方式</h2>
-      <p>邮箱: <a href="mailto:janorte@example.com" class="text-blue-600 hover:underline">janorte@example.com</a></p>
+      <p>邮箱: <a href="mailto:wangzhen@henu.edu.cn" class="text-blue-600 hover:underline">janorte@example.com</a></p>
       <p>ORCID: <a href="https://orcid.org/0000-0001-5115-231X" class="text-blue-600 hover:underline">0000-0001-5115-231X</a></p>
       <p>ResearchGate: <a href="https://www.researchgate.net/profile/Zhen-Wang-81" class="text-blue-600 hover:underline">Zhen-Wang-81</a></p>
       <p>Web of Science ResearcherID: <a href="https://webofscience.clarivate.cn/wos/author/record/AAG-8329-2019" class="text-blue-600 hover:underline">AAG-8329-2019</a></p>
