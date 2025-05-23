@@ -10,6 +10,7 @@
   <style>
     body { font-family: 'Arial', sans-serif; }
     .section { padding: 4rem 2rem; }
+    .journal-img { width: 80px; height: 120px; object-fit: cover; margin: 0.5rem; }
   </style>
 </head>
 <body class="bg-gray-100">
@@ -53,7 +54,7 @@
   </section>
 
   <!-- 教育背景 -->
-  <section id="education" class="section bg-gray-50">
+  <section id="education" class="section bg-white">
     <div class="container mx-auto">
       <h2 class="text-3xl font-bold mb-4">教育背景</h2>
       <ul class="list-disc pl-6">
@@ -67,21 +68,24 @@
 
 
   <!-- 出版物 -->
-<section id="publications" class="section bg-white">
-  <div class="container mx-auto">
-    <h2 class="text-3xl font-bold mb-4">出版物</h2>
-    <div class="mb-4">
-      <button class="filter-btn bg-blue-600 text-white px-4 py-2 rounded mr-2" data-year="All">全部</button>
-      <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded mr-2" data-year="2024">2024</button>
-      <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded mr-2" data-year="2023">2023</button>
-      <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded mr-2" data-year="2022">2022</button>
-      <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded" data-year="2021">2021</button>
+  <section id="publications" class="section bg-gray-50">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-4">出版物</h2>
+      <div class="mb-4">
+        <button class="filter-btn bg-blue-600 text-white px-4 py-2 rounded mr-2" data-year="All">全部</button>
+        <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded mr-2" data-year="2025">2025</button>
+        <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded mr-2" data-year="2024">2024</button>
+        <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded mr-2" data-year="2023">2023</button>
+        <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded mr-2" data-year="2022">2022</button>
+        <button class="filter-btn bg-gray-300 text-black px-4 py-2 rounded" data-year="2021">2021</button>
+      </div>
+      <ul id="publication-list" class="list-disc pl-6"></ul>
     </div>
-    <ul id="publication-list" class="list-disc pl-6"></ul>
-  </div>
-</section>
+  </section>
 <!-- 引入 JavaScript -->
 <script src="js/publications.js"></script>
+
+
 
   <!-- 学术指标 -->
   <section id="metrics" class="section bg-white">
@@ -139,10 +143,10 @@
 
 
   <!-- Peer review -->
-  <section id="peer-review" class="section bg-gray-50">
+  <section id="peer-review" class="section bg-white">
     <div class="container mx-auto">
       <h2 class="text-3xl font-bold mb-4">Peer review</h2>
-      <p>	Review activity for：Food Chemistry, Food Research International, International Journal of Biological Macromolecules, Industrial Crops & Products, Food Frontiers 等。</p>
+      <p>Review activity for：<i>Food Chemistry</i>, <i>Food Research International</i>, <i>International Journal of Biological Macromolecules</i>, <i>Industrial Crops & Products</i>, <i>Food Frontiers</i> etc.</p>
       <div class="flex flex-wrap mt-4">
         <img src="images/journals/food_chemistry.jpg" alt="Food Chemistry 封面" class="journal-img">
         <img src="images/journals/food_research_international.jpg" alt="Food Research International 封面" class="journal-img">
@@ -155,7 +159,7 @@
 
 
   <!-- 联系方式 -->
-  <section id="contact" class="section bg-white">
+  <section id="contact" class="section bg-gray-50">
     <div class="container mx-auto">
       <h2 class="text-3xl font-bold mb-4">联系方式</h2>
       <p>邮箱: <a href="mailto:wangzhen@henu.edu.cn" class="text-blue-600 hover:underline">wangzhen@henu.edu.cn</a></p>
